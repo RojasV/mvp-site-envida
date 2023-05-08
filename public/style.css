@@ -229,7 +229,7 @@ input{
 .other-service{
     background-color:#F4F9FF;
     margin-top:100px;
-    padding-top:120px;
+   
 }
 .other-service h4{
     font-size:17px;
@@ -395,10 +395,10 @@ input{
 .testiminionals {
    
     background-color: #F6F6F6;
-    margin-top:100px;
+   
 }
 .testiminionals .quotes{
-     padding-top:100px; 
+    
 }
 .testiminionals p{
     padding:50px;
