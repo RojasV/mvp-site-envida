@@ -26,6 +26,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" defer></script>
     <script src="public/js/custom.js" defer></script>
     <script src="public/utils/counter.js" defer></script>
+   
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js" defer></script>
+    <script src="/public/utils/inputMaskHandler.js" defer></script>
+
+    <!-- Template Mail Sender JS File -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="/public/utils/mailSender.js"></script>
 
 
     <title>ENVIDA</title>
@@ -59,29 +67,29 @@
         </div>
     </section>
     <!-- Appointment Section -->
-    <section class=" appointment">
+    <section class=" appointment-bradesco">
         <div class="appointment-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="form">
                             <div class="appointment-form text-center">
-                                <form>
+                                <form action="" id="form" method="post" role="form" class="php-email-form">
                                     <p class="appointment-title">Assine o melhor plano de saúde!</p>
                                     <p class="appointment-text">Preencha os campos abaixo</p>
                                     <div class="form-group">
                                         <input type="text" class="form-control"
-                                            placeholder="Digite seu nome completo...">
+                                            placeholder="Digite seu nome completo..." required>
                                     </div>
                                     <div class="form-group">
                                         <input type="email" class="form-control"
-                                            placeholder="Digite seu melhor Email...">
+                                            placeholder="Digite seu melhor Email..." required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="number" class="form-control"
-                                            placeholder="Número de telefone com DDD...">
+                                        <input type="text" class="form-control cellphone"
+                                            placeholder="Número de telefone com DDD..." required>
                                     </div>
-                                    <button type="submit" class="btn submit-btn">ASSINAR AGORA</button>
+                                    <button type="submit" class="btn submit-btn mail-submit">ASSINAR AGORA</button>
                                 </form>
                             </div>
                         </div>
@@ -629,19 +637,19 @@
             <div class="modal-body">
                 <div class="form">
                     <div class="appointment-form-modal text-center">
-                        <form>
+                        <form action="" id="form" method="post" role="form" class="php-email-form">
                             <p class="appointment-title">Assine o melhor plano de saúde!</p>
                             <p class="appointment-text">Preencha os campos abaixo</p>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Digite seu nome completo...">
+                                <input type="text" class="form-control" placeholder="Digite seu nome completo..." required>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Digite seu melhor Email...">
+                                <input type="email" class="form-control" placeholder="Digite seu melhor Email..." required>
                             </div>
                             <div class="form-group">
-                                <input type="number" class="form-control" placeholder="Número de telefone com DDD...">
+                                <input type="text" class="form-control cellphone" maxlength="11" placeholder="Número de telefone com DDD..." required>
                             </div>
-                            <button type="submit" class="btn submit-btn">ASSINAR AGORA</button>
+                            <button type="submit" class="btn submit-btn mail-submit">ASSINAR AGORA</button>
                         </form>
                     </div>
                 </div>

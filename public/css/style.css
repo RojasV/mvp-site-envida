@@ -57,9 +57,27 @@ a:hover {
 }
 
 .appointment {
-    background: url(/public/image/bg-img-removebg-preview.png) center center;
+    background: url(/public/image/unimed-bg.png) center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+}
+
+.appointment-bradesco{
+    background: url(/public/image/bradesco-bg.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.appointment-sulamerica {
+    background: url(/public/image/sulamerica-bg.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.appointment-porto-seguro {
+    background: url(/public/image/porto-seguro-bg.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .passion {
