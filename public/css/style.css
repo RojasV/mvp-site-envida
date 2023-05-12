@@ -173,10 +173,52 @@ input {
     font-size: 1.2rem;
 }
 
+.submit-btn-bradesco {
+    width: 100%;
+    background-color: #c80d1b;
+    border-radius: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.submit-btn-portoseguro {
+    width: 100%;
+    background-color: #3794c6;
+    border-radius: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.submit-btn-sulamerica {
+    width: 100%;
+    background-color: #283d5a
+    ;
+    border-radius: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    font-size: 1.2rem;
+}
+
 .submit-btn:hover {
     color: #fff;
 }
 
+.submit-btn-bradesco:hover {
+    color: #fff;
+}
+
+.submit-btn-portoseguro:hover {
+    color: #fff;
+}
+
+.submit-btn-sulamerica:hover {
+    color: #fff;
+}
 
 .passion h1 {
     font-family: 'Roboto', sans-serif;
