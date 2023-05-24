@@ -619,6 +619,10 @@ p {
 
 }
 
+.woman-feedback{
+    margin-left: 14%;
+}
+
 .testiminionals .quotes {}
 
 .testiminionals p {
@@ -749,6 +753,10 @@ footer a:hover {
 @media (max-width: 576px) {
     .appointment-form {
         padding: 10px 19px;
+    }
+
+    .woman-feedback{
+        margin: 0;
     }
 
     .passion {
