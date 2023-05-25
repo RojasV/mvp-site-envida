@@ -64,10 +64,10 @@ class MailSender {
             submitBtn.removeAttribute("disabled")
         })
 
-        $(document).on('submit', '.php-email-form-modal', '.mail-submit', async function (event) {
+        $(document).on('submit', '.php-email-form-modal', '.mail-submit-modal', async function (event) {
             event.preventDefault()
 
-            const submitBtn = document.querySelector('.mail-submit')
+            const submitBtn = document.querySelector('.mail-submit-modal')
             const form = document.querySelector('.php-email-form-modal')
             const formData = new FormData(form)
 
@@ -97,20 +97,20 @@ class MailSender {
 
 
 
-    successAlertHandler(user) {
-        Swal.fire({
-            title: `Ficamos felizes pelo seu interesse ${user}!`,
-            text: 'Recebemos o seu email e te responderemos em no máximo 1 minutinho!',
-            icon: 'success',
-            confirmButtonText: "ok"
-        })
-            .then(() => {
-                // this.submitBtn.removeAttribute("disabled")
-            })
-            .catch(err => {
-                console.log(err)
-            })
-    }
+    // successAlertHandler(user) {
+    //     Swal.fire({
+    //         title: `Ficamos felizes pelo seu interesse ${user}!`,
+    //         text: 'Recebemos o seu email e te responderemos em no máximo 1 minutinho!',
+    //         icon: 'success',
+    //         confirmButtonText: "ok"
+    //     })
+    //         .then(() => {
+    //             // this.submitBtn.removeAttribute("disabled")
+    //         })
+    //         .catch(err => {
+    //             console.log(err)
+    //         })
+    // }
 
 
 }
