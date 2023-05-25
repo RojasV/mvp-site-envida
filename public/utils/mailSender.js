@@ -92,6 +92,8 @@ class MailSender {
 
             form.reset()
             submitBtn.removeAttribute("disabled")
+            $('#exampleModal').modal('hide');
+
         })
     }
 
