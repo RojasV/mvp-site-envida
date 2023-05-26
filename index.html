@@ -35,7 +35,8 @@
     <script src="/public/utils/inputMaskHandler.js" defer></script>
 
     <!-- Template Mail Sender JS File -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer> </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     <script type="module" src="/public/utils/mailSender.js" defer></script>
 
@@ -83,7 +84,7 @@
                         <div class="form">
                             <div class="appointment-form text-center">
                                 <form action="" id="form" method="post" role="form" class="php-email-form">
-                                    <p class="appointment-title">Assine o melhor plano de saúde!</p>
+                                    <p class="appointment-title">Contrate o melhor plano de saúde!</p>
                                     <p class="appointment-text">Preencha os campos abaixo</p>
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="name" name="name"
@@ -101,7 +102,7 @@
                                         <input type="text" class="form-control cellphone" id="cellphone"
                                             name="cellphone" placeholder="Número de telefone com DDD..." required>
                                     </div>
-                                    <button type="submit" class="btn submit-btn mail-submit">ASSINAR AGORA</button>
+                                    <button type="submit" class="btn submit-btn mail-submit">SOLICITAR COTAÇÃO</button>
                                 </form>
                             </div>
                         </div>
@@ -120,14 +121,13 @@
                                         <p class="count-text ">Clientes felizes</p>
                                     </div>
                                     <br />
-                                    <!-- <button class="btn btn-primary">Contact Us</button> -->
                                 </div>
                                 <div class="col">
                                     <div class="counter">
                                         <i class="fa fa-id-card-o fa-2x"></i>
                                         <h2 class="timer count-title count-number" data-to="1000" data-speed="1500">
                                         </h2>
-                                        <p class="count-text ">Planos assinados</p>
+                                        <p class="count-text ">Contratos fechados</p>
                                     </div>
                                 </div>
                                 <div class="col">
@@ -144,78 +144,6 @@
                     </div>
                 </div>
     </section>
-
-    <!-- Medicevo Hospital -->
-    <!-- <section class="container hospital-services clearfix">
-        <div class="row">
-            <div class="col-12  col-sm-12 ">
-                <div class="title text-center">
-                    <h2>Welcome To Medicevo Hospital</h2>
-                    <p>25 Years Of Experience In Medical Field</p>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4">
-                <div class="card">
-                    <img loading="lazy" src="public/image/qualified-doctor.jpg" class="card-img-top" alt="QUALIFIED DOCTORS">
-                    <div class="card-body">
-                        <img loading="lazy" src="public/image/qualified-doctors-icon.png" class="mx-auto d-block icon-card"
-                            alt="QUALIFIED DOCTORS ICON">
-                        <h3 class="card-title text-center">QUALIFIED DOCTORS</h3>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4">
-                <div class="card">
-                    <img loading="lazy" src="public/image/infrastructure.jpg" class="card-img-top" alt="GREAT INFRASTRUCTURE">
-                    <div class="card-body">
-                        <img loading="lazy" src="public/image/greate-infrastructure-icon.png" class="mx-auto d-block icon-card"
-                            alt="GREAT INFRASTRUCTURE">
-                        <h3 class="card-title text-center">GREAT INFRASTRUCTURE</h3>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4">
-                <div class="card">
-                    <img loading="lazy" src="public/image/ambulance.jpg" class="card-img-top" alt="AMBULANCE SERVICE">
-                    <div class="card-body">
-                        <img loading="lazy" src="public/image/ambulance-service-icon.png" class="mx-auto d-block icon-card"
-                            alt="AMBULANCE SERVICE">
-                        <h3 class="card-title text-center">AMBULANCE SERVICE</h3>
-                        <p class="card-text text-center">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Grey Notification  -->
-    <!-- <section class="notification">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="blood-bank d-inline-block">
-                        <img loading="lazy" src="public/image/our-blood-bank-icon.png" alt="OUR BLOOD BANK" class="">
-                        <h4>OUR BLOOD BANK</h4>
-                        <br> <span>Sed ut perspiciatis unde omnis iste natus error sit vol accusantium doloremque laud
-                            antium totam rem aperiam eaque.</span>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="quality-medicine d-inline-block">
-                        <img loading="lazy" src="public/image/quality-medicines-icon.png" alt="OUR BLOOD BANK" class="">
-                        <h4>QUALITY MEDICINES</h4>
-                        <br> <span>Sed ut perspiciatis unde omnis iste natus error sit vol accusantium doloremque laud
-                            antium totam rem aperiam eaque.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- Service Provided By Medicevo -->
     <section class="container service">
@@ -234,7 +162,8 @@
                         </div>
                         <div class="col-6">
                             <div class="card-body">
-                                <img loading="lazy" src="public/image/icons/unimed-icons/hospital-verde.png" class="service-icon" alt="Cardiology">
+                                <img loading="lazy" src="public/image/icons/unimed-icons/hospital-verde.png"
+                                    class="service-icon" alt="Cardiology">
                                 <h3 class="card-title">Melhor Atendimento</h3>
                                 <p class="card-text">Atendimento nos melhores hospitais do país: Hospital Albert
                                     Einstein, Rede D´or, Hospital Sirio Libanês, Hospital São Luis, entre outros.</p>
@@ -252,7 +181,8 @@
                         </div>
                         <div class="col-6">
                             <div class="card-body">
-                                <img loading="lazy" src="public/image/icons/unimed-icons/certificado-verde.png" class="service-icon" alt="Neurology">
+                                <img loading="lazy" src="public/image/icons/unimed-icons/certificado-verde.png"
+                                    class="service-icon" alt="Neurology">
                                 <h3 class="card-title">Aqui você consegue reembolso!</h3>
                                 <p class="card-text">Reembolso de procedimentos particulares: sua solicitação de
                                     reembolso é feita e acompanhada direto do celular, de forma prática e rápida.</p>
@@ -267,7 +197,8 @@
                     <div class="row no-gutters">
                         <div class="col-6">
                             <div class="card-body">
-                                <img loading="lazy" src="public/image/icons/unimed-icons/dinheiro-verde.png" class="service-icon" alt="Neurology">
+                                <img loading="lazy" src="public/image/icons/unimed-icons/dinheiro-verde.png"
+                                    class="service-icon" alt="Neurology">
                                 <h3 class="card-title">Utilizamos bem seu dinheiro</h3>
                                 <p class="card-text">Melhor custo-benefício: planos completos com valores
                                     personalizados.</p>
@@ -275,7 +206,8 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <img loading="lazy" src="public/image/discussing-x-ray.jpg" class="card-img polygon-invers" alt="...">
+                            <img loading="lazy" src="public/image/discussing-x-ray.jpg" class="card-img polygon-invers"
+                                alt="...">
                         </div>
                     </div>
                 </div>
@@ -285,21 +217,23 @@
                     <div class="row no-gutters">
                         <div class="col-6">
                             <div class="card-body">
-                                <img loading="lazy" src="public/image/icons/unimed-icons/brasil-verde.png" class="service-icon" alt="Neurology">
+                                <img loading="lazy" src="public/image/icons/unimed-icons/brasil-verde.png"
+                                    class="service-icon" alt="Neurology">
                                 <h3 class="card-title">Planos Nacionais</h3>
                                 <p class="card-text">Rede credenciada em todos os Estados.</p>
 
                             </div>
                         </div>
                         <div class="col-6">
-                            <img loading="lazy" src="public/image/siagnostic.jpg" class="card-img polygon-invers" alt="...">
+                            <img loading="lazy" src="public/image/siagnostic.jpg" class="card-img polygon-invers"
+                                alt="...">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="w-100 d-flex justify-content-center align-items-center">
                 <button type="button" class="col-10 mt-5 btn submit-btn" data-toggle="modal"
-                    data-target="#exampleModal">ASSINAR AGORA</button>
+                    data-target="#exampleModal">SOLICITAR COTAÇÃO</button>
             </div>
         </div>
     </section>
@@ -317,21 +251,24 @@
                 <div class="col-12 col-lg-8 change-direction">
                     <div class="col-6">
                         <div class="d-inline-block">
-                            <img loading="lazy" src="public/image/cardio-monitoring.png" alt="cardio-monitoring" class="">
+                            <img loading="lazy" src="public/image/cardio-monitoring.png" alt="cardio-monitoring"
+                                class="">
                             <h4>Tranquilidade na contratação</h4>
                             <br> <span>trabalhamos com as mais reconhecidas operadoras e seguradoras do país!</span>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="d-inline-block">
-                            <img loading="lazy" src="public/image/health-care-solution.png" alt="health-care-solution" class="">
+                            <img loading="lazy" src="public/image/health-care-solution.png" alt="health-care-solution"
+                                class="">
                             <h4>Agilidade nos processos</h4>
                             <br> <span>O contrato é online, de maneira prática e rápida!</span>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="d-inline-block">
-                            <img loading="lazy" src="public/image/modern-equipment-icon.png" alt="modern-equipment" class="">
+                            <img loading="lazy" src="public/image/modern-equipment-icon.png" alt="modern-equipment"
+                                class="">
                             <h4>Segurança nos serviços</h4>
                             <br> <span>Somos especialistas no assunto!</span>
                         </div>
@@ -351,88 +288,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Emergency Call -->
-    <!-- <section class="emergency">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 ambulance">
-                    <p class="text-light emergency-title">Any Emergency <span>Call Our Ambulance </span>Service</p>
-                    <button class="btn">Make An Appointment</button>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Experienced Team From Medicevo -->
-    <!-- <section class="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="title text-center">
-                        <h2>Experienced Team From Medicevo</h2>
-                        <p>Qualified Doctors Are Here To Help You At Anytime</p>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="card">
-                        <img loading="lazy" src="public/image/doctor1.jpg" class="card-img-top" alt="Micheal Doe">
-                        <div class="card-body">
-                            <p class="card-title name">Micheal Doe</p>
-                            <p class="card-text">Neurologist</p>
-                            <p class="card-text">
-                                <a href="mailto:micheal_dr@gmail.com"><i class="fa fa-envelope-o"></i>
-                                    micheal_dr@gmail.com</a>
-                                <br><a href="tel:+012365478985"><i class="fa fa-mobile"></i> +01 236 547 8985</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="card">
-                        <img loading="lazy" src="public/image/doctor2.jpg" class="card-img-top" alt="Hendry Doe">
-                        <div class="card-body">
-                            <p class="card-title name">Hendry Doe</p>
-                            <p class="card-text">Orthopedist</p>
-                            <p class="card-text">
-                                <a href="mailto:Hendry_Dr@gmail.com"><i class="fa fa-envelope-o"></i>
-                                    Hendry_Dr@gmail.com</a><br>
-                                <a href="tel:+012365478985"><i class="fa fa-mobile"></i> +01 236 547 8985</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="card">
-                        <img loading="lazy" src="public/image/doctor3.jpg" class="card-img-top" alt="QUALIFIED DOCTORS">
-                        <div class="card-body">
-                            <p class="card-title name">Andrea Doe</p>
-                            <p class="card-text">Pulmonologist</p>
-                            <p class="card-text">
-                                <a href="mailto:test@test.com"><i class="fa fa-envelope-o"></i>
-                                    Pointg_Dr@gmail.com</a><br>
-                                <a href="tel:+012365478985"><i class="fa fa-mobile"></i> +01 236 547 8985</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="card">
-                        <img loading="lazy" src="public/image/doctor4.jpg" class="card-img-top" alt="QUALIFIED DOCTORS">
-                        <div class="card-body">
-                            <p class="card-title name">Wilson Doe</p>
-                            <p class="card-text">Neurologist</p>
-                            <p class="card-text">
-                                <a href="mailto:test@test.com"><i class="fa fa-envelope-o"></i>
-                                    Wilson_Dr@gmail.com</a><br>
-                                <a href="tel:+012365478985"><i class="fa fa-mobile"></i> +01 236 547 8985</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <!-- testiminionals slider -->
     <section class="testiminionals">
@@ -460,7 +315,7 @@
                                     <div class="text-center pt-3"><span>Juliana Oliveira, empresaria de rede de
                                             pizzaria</span></div>
                                 </div>
-                                                          </div>
+                            </div>
                             <div class="d-flex">
                                 <div class="col-lg-12 col-sm-12 col-xs-12 d-inline-block second-quote">
                                     <p class="d-inline-block">
@@ -496,93 +351,25 @@
                 </div>
                 <div class="w-100 d-flex justify-content-center align-items-center">
                     <button type="button" class="col-10 mt-5 btn submit-btn" data-toggle="modal"
-                        data-target="#exampleModal">ASSINAR AGORA</button>
+                        data-target="#exampleModal">SOLICITAR COTAÇÃO</button>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Our partners -->
-    <!-- <section class="container partner">
-        <div class="row">
-            <div class="col-12">
-                <div class="partner-logo">
-                    <img loading="lazy" src="/public/image/01.png" alt="">
-                    <img loading="lazy" src="/public/image/02.png" alt="">
-                    <img loading="lazy" src="/public/image/03.png" alt="">
-                    <img loading="lazy" src="/public/image/04.png" alt="">
-                    <img loading="lazy" src="/public/image/05.png" alt="">
-                    <img loading="lazy" src="/public/image/06.png" alt="">
-                    <img loading="lazy" src="/public/image/07.png" alt="">
-                    <img loading="lazy" src="/public/image/08.png" alt="">
-                    <img loading="lazy" src="/public/image/09.png" alt="">
-                    <img loading="lazy" src="/public/image/10.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Subscribe To Our Newsletter -->
-    <!-- <section class="container-fliud container-md newsletter">
-        <div class="row">
-            <div class="col-12">
-                <div class="title text-center">
-                    <p class="subscribe">Subscribe To Our Newsletter</p>
-                    <p>Subscribe To Know Latest Updates From Us</p>
-                    <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Enter Your Email"
-                            aria-label="Enter Your Email" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn" type="button" id="button-addon2">Subscribe</button>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> -->
-    <!-- map section -->
-    <!-- <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 maps">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7281080726!2d-0.24168024584704462!3d51.528771840474214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1607435541017!5m2!1sen!2s"
-                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0">
-                    </iframe>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Before Footer Sectio -->
-    <!-- <section class="before-footer">
-        <div class="container">
-            <div class="col-12">
-                <div class="text-center text-light">
-                    <p class="hours">Visting Hours</p>
-                    <p class="working-days">Mon to Sat - 9:00am to 12:00am</p>
-                    <p class="working-days">Sunday - 9:00am to 12:00pm</p>
-                    <div class="appoint">
-                        <button type="button" class="btn">MAKE AN APPOINTMENT</button>
-                        OR CALL US <a href="tel:+001235698544">+00 123 569 8544</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <!-- Footer -->
     <section id="cookies">
         <div class="container">
-          <div class="subcontainer">
-            <div class="cookies ">
-              <p class="col-lg-10">Quando você envia informações para este site via formulário na web, coletamos os dados solicitados nesse formulário para monitorar e responder aos seus envios. Repassamos essas informações à ENVIDA.</p>
-              <button id="cookies-btn">EU CONCORDO!</button>
+            <div class="subcontainer">
+                <div class="cookies ">
+                    <p class="col-lg-10">Quando você envia informações para este site via formulário na web, coletamos
+                        os dados solicitados nesse formulário para monitorar e responder aos seus envios. Repassamos
+                        essas informações à ENVIDA.</p>
+                    <button id="cookies-btn">EU CONCORDO!</button>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
     <footer>
         <div class="container">
@@ -591,15 +378,6 @@
                     <p class="text-center">© 2023 <a href="https://digitaconnect.com/" class="copy">ENVIDA</a>.Todos os
                         direitos reservados</p>
                 </div>
-                <!-- <div class="col-6 menu-footer">
-                    <p class="d-inline-block text-light">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms&Conditions</a>
-                    </p>
-                </div> -->
             </div>
         </div>
     </footer>
@@ -637,20 +415,16 @@
                                     <input type="text" class="form-control cellphone" id="cellphone" name="cellphone"
                                         placeholder="Número de telefone com DDD..." required>
                                 </div>
-                                <button type="submit" class="btn submit-btn mail-submit-modal">ASSINAR AGORA</button>
+                                <button type="submit" class="btn submit-btn mail-submit-modal">SOLICITAR COTAÇÃO</button>
                             </form>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div> -->
             </div>
         </div>
     </div>
 
-   
+
     <div class="whatsapp-holder" style="position: fixed;">
         <div class="elfsight-app-91e25237-f33d-482c-8bab-c0b5c76a125f"></div>
     </div>
