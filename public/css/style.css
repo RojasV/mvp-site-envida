@@ -67,6 +67,10 @@ a {
     align-items: center;
 }
 
+.social-media{
+    color: #007bff;
+}
+
 .social-media a {
     background-color: white;
     border-radius: 50%;
