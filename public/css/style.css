@@ -501,7 +501,7 @@ h2 {
 
 .team .card a,
 p {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -680,6 +680,10 @@ footer {
 footer p,
 a {
     padding-top: 30px;
+}
+
+a {
+    padding: 0;
 }
 
 footer a {
