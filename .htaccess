@@ -1,10 +1,10 @@
 # remove trailing slash
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/$ http://https://mvp-site-envida-mpu7.vercel.app/$1 [R=301,L]
+RewriteRule ^([^/]+)/$ https://envidacorretora.com.br/$1 [R=301,L]
 
 # Redirect external .html requests to extensionless url
 RewriteCond %{THE_REQUEST} ^(.+)\.html([#?][^\ ]*)?\ HTTP/
-RewriteRule ^(.+)\.html$ http://https://mvp-site-envida-mpu7.vercel.app/$1 [R=301,L]
+RewriteRule ^(.+)\.html$ https://envidacorretora.com.br/$1 [R=301,L]
 
 # Resolve .html file for extensionless html urls
 RewriteRule ^([^/.]+)$ $1.html[L]
